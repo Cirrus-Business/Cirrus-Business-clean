@@ -10,5 +10,6 @@ urls = [
     webapp2.Route(r'/logout', handler=handlers.LogOut, name="logout"),
     webapp2.Route(r'/account', handler=handlers.Account, name="account"),
     webapp2.Route(r'/account/setup', handler=handlers.AccountSetup, name="setup"),
+    webapp2.Route(r'/cal', handler=handlers.Cal, name="cal"),
     (r'.*', handlers.NotFound)
 ]

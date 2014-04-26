@@ -53,6 +53,12 @@ class Main(BaseRequestHandler):
         self.render("index.html")
 
 
+#make a calander
+class Cal(BaseRequestHandler):
+    def get(self):
+        # Render the template
+        self.render("cal.html")
+
 # Account page and after-login handler
 class Account(BaseRequestHandler):
     """

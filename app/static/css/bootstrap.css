@@ -156,17 +156,17 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: #333333;
-  background-color: #ffffff;
+  color: darkmagenta;
+  background-color: mistyrose;
 }
 
 a {
-  color: #0088cc;
+  color: darkmagenta;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005580;
+  color: darkmagenta;
   text-decoration: underline;
 }
 
@@ -425,7 +425,7 @@ p {
 
 p small {
   font-size: 11px;
-  color: #999999;
+  color: #b94a48;
 }
 
 .lead {
@@ -598,7 +598,7 @@ em {
 }
 
 .muted {
-  color: #999999;
+  color: #dd514c;
 }
 
 abbr[title] {
@@ -683,7 +683,7 @@ pre {
 code {
   padding: 2px 4px;
   color: #d14;
-  background-color: #f7f7f9;
+  background-color: #f8b9b7;
   border: 1px solid #e1e1e8;
 }
 
@@ -697,7 +697,7 @@ pre {
   word-wrap: break-word;
   white-space: pre;
   white-space: pre-wrap;
-  background-color: #f5f5f5;
+  background-color: #f8b9b7;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 4px;
@@ -745,7 +745,7 @@ legend {
 
 legend small {
   font-size: 13.5px;
-  color: #999999;
+  color: darkmagenta;
 }
 
 label,
@@ -782,8 +782,8 @@ select,
   margin-bottom: 9px;
   font-size: 13px;
   line-height: 18px;
-  color: #555555;
-  background-color: #ffffff;
+  color: #dd1144;
+  background-color: #f8b9b7;
   border: 1px solid #cccccc;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
@@ -830,7 +830,7 @@ input[type="file"] {
   width: auto;
   padding: initial;
   line-height: initial;
-  background-color: #ffffff;
+  background-color: #f8b9b7;
   background-color: initial;
   border: initial;
   -webkit-box-shadow: none;
@@ -862,7 +862,7 @@ input[type="file"] {
 
 select {
   width: 220px;
-  background-color: #ffffff;
+  background-color: #f8b9b7;
 }
 
 select[multiple],
@@ -1071,7 +1071,7 @@ input[readonly],
 select[readonly],
 textarea[readonly] {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  background-color: #f8b9b7;
   border-color: #ddd;
 }
 
@@ -1208,7 +1208,7 @@ select:focus:required:invalid:focus {
   overflow: hidden;
   white-space: nowrap;
   cursor: not-allowed;
-  background-color: #ffffff;
+  background-color: #f8b9b7;
   border-color: #eee;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
      -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
@@ -1287,7 +1287,7 @@ select:focus:required:invalid:focus {
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
   vertical-align: middle;
-  background-color: #eeeeee;
+  background-color: #f8b9b7;
   border: 1px solid #ccc;
 }
 
@@ -1492,9 +1492,39 @@ legend + .control-group {
 
 table {
   max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
+  background-color: lavenderblush;
+  border-spacing: 2px;
+}
+
+table th {
+    border: solid lavenderblush 1px;
+    background-color:  #f8b9b7;
+}
+
+table td {
+    border: solid #f8b9b7;
+}
+
+table .startItem {
+    background-color:  #f8b9b7;
+    border: solid darkmagenta;
+    border-bottom: none;
+}
+table .continue {
+    background-color:  #f8b9b7;
+    border: solid darkmagenta;
+    border-bottom: none;
+    border-top: none;
+}
+table .endItem {
+    background-color:  #f8b9b7;
+    border: solid darkmagenta;
+    border-top: none;
+}
+
+table .startEndItem {
+    background-color:  #f8b9b7;
+    border: solid darkmagenta;
 }
 
 .table {
@@ -1508,7 +1538,6 @@ table {
   line-height: 18px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
 }
 
 .table th {
@@ -1615,6 +1644,8 @@ table .span2 {
   float: none;
   width: 124px;
   margin-left: 0;
+
+
 }
 
 table .span3 {
@@ -2380,7 +2411,7 @@ table .span24 {
   padding: 4px 0;
   margin: 1px 0 0;
   list-style: none;
-  background-color: #ffffff;
+  background-color: #f8b9b7;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
@@ -2407,7 +2438,7 @@ table .span24 {
   margin: 8px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
-  background-color: #e5e5e5;
+  background-color: #f8b9b7;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -2424,7 +2455,7 @@ table .span24 {
 .dropdown-menu li > a:hover,
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
-  color: #ffffff;
+  color: darkmagenta;
   text-decoration: none;
   background-color: #0088cc;
 }
@@ -2467,7 +2498,7 @@ table .span24 {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
+  background-color: #f8b9b7;
   border: 1px solid #eee;
   border: 1px solid rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 4px;
@@ -2568,7 +2599,7 @@ button.close {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
   cursor: pointer;
-  background-color: #f5f5f5;
+  background-color: #f8b9b7;
   *background-color: #e6e6e6;
   background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
@@ -2598,13 +2629,13 @@ button.close {
 .btn.active,
 .btn.disabled,
 .btn[disabled] {
-  background-color: #e6e6e6;
+  background-color: #f8b9b7;
   *background-color: #d9d9d9;
 }
 
 .btn:active,
 .btn.active {
-  background-color: #cccccc \9;
+  background-color: #f8b9b7 \9;
 }
 
 .btn:first-child {
@@ -2614,7 +2645,7 @@ button.close {
 .btn:hover {
   color: #333333;
   text-decoration: none;
-  background-color: #e6e6e6;
+  background-color: #f8b9b7;
   *background-color: #d9d9d9;
   /* Buttons in IE7 don't get borders, so darken on hover */
 
@@ -2634,7 +2665,7 @@ button.close {
 
 .btn.active,
 .btn:active {
-  background-color: #e6e6e6;
+  background-color: #f8b9b7;
   background-color: #d9d9d9 \9;
   background-image: none;
   outline: 0;
@@ -2646,7 +2677,7 @@ button.close {
 .btn.disabled,
 .btn[disabled] {
   cursor: default;
-  background-color: #e6e6e6;
+  background-color: #f8b9b7;
   background-image: none;
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -2696,7 +2727,7 @@ button.close {
 .btn-info:hover,
 .btn-inverse,
 .btn-inverse:hover {
-  color: #ffffff;
+  color: darkmagenta;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -4957,4 +4988,33 @@ a.badge:hover {
 
 .invisible {
   visibility: hidden;
+}
+
+.calendar .row .span4, .calendar .span2, .calendar .span3,{
+    background-color: lavenderblush;
+
+}
+
+.calSpan2 {
+    display: inline-block;
+    width: 140px;
+    background-color: #f8b9b7;
+    padding: 4px;
+}
+.calHead {
+    margin-bottom: 3px;
+    min-height: 14px;
+    display: inline-block;
+    width: 265px;
+    background-color: #f8b9b7;
+    padding: 4px;
+}
+.calSpan3 {
+    margin-bottom: 3px;
+    padding: 4px;
+    display: inline-block;
+    width: 260px;
+    background-color: lavenderblush;
+    border: solid #f8b9b7;
+    border-radius: .5em;
 }
