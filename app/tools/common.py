@@ -12,7 +12,8 @@ def is_testenv():
     Appengine uses 'Google App Engine/<version>',
     Devserver uses 'Development/<version>'
     """
-    return environ.get('SERVER_SOFTWARE', '').startswith('Development')
+#     return environ.get('SERVER_SOFTWARE', '').startswith('Development')
+    return False
 
 
 def decode(var):

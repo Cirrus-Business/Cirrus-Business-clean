@@ -2,8 +2,7 @@
 import logging
 from google.appengine.api import memcache
 
-# When using runtime:python27 you can just use `import json` 
-import json  # http://stackoverflow.com/questions/1171584/how-can-i-parse-json-in-google-app-engine
+import json
 
 from google.appengine.api import urlfetch
 

@@ -12,6 +12,7 @@ def login_required(func):
                 self.render("secrets.html")
 
     """
+
     def _wrapper(request, *args, **kw):
         if request.userprefs:
             return func(request, *args, **kw)
